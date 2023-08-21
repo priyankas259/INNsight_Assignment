@@ -1,0 +1,59 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+    margin-top: 25px;
+    background-color: #73AD21;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    font-size: 17px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 25%;
+  }
+
+   .card-direction{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 70px;
+   }
+
+   img{
+    width: 100%;
+    height: 70%;
+
+   }
+   #userName{
+
+    font-size: 20px;
+   }
+   #userEmailID{
+    color: blueviolet;
+   }
+   .fa-map-marker{
+    color: red;
+    padding-right: 10px;
+   }
+   .Add-btn{
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    border: 3px solid #73AD21;
+    margin-top: 1rem;
+   }
+
+   .remove-btn{
+    width: 25px;
+    height: 20px;
+    float: right;
+
+   }
